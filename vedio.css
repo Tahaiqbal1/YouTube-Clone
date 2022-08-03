@@ -1,0 +1,56 @@
+.vedio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.vedio-information-grid {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+}
+.vedio-thumbnail {
+  position: relative;
+}
+.thumbnail {
+  width: 100%;
+}
+
+.channel-picture {
+  width: 36px;
+  border-radius: 36px;
+  margin-top: 12px;
+  vertical-align: middle;
+}
+
+.vedio-description {
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.channel-name {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: #606060;
+}
+.vedio-stat {
+  font-size: 12px;
+  color: #606060;
+  margin-top: 0px;
+}
+.vedioTime {
+  background-color: rgba(0, 0, 0, 0.658);
+  color: white;
+  text-align: center;
+  padding: 1px 3px ;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-size: small;
+  font-family: Roboto,arial;
+}
