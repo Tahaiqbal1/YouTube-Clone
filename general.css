@@ -20,7 +20,7 @@ p
 {
   position: absolute;
 }
-@media  (width : 720px ) {
+@media  (max-width : 720px ) {
 
   .vedio-grid
   {
